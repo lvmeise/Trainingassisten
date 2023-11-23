@@ -16,7 +16,7 @@ export const useChatState = () => {
   const [threadId, setThreadId] = useState<string | null>(null);
   const [isStartLoading, setStartLoading] = useState(false);
   const [isSending, setIsSending] = useState(false);
-  const [initialThreadMessage, setInitialThreadMessage] = useState('Introduce yourself and explain users how to interact with you. Tell them to ask you to generate a question and then answer, and you will rate it');
+  const [initialThreadMessage, setInitialThreadMessage] = useState('Introduce yourself and explain users how to interact with you. Tell them to ask you to generate a question and then answer, and you will rate it. Generate an intitial question');
   const [statusMessage, setStatusMessage] = useState('');
   const counter = useRef(0);
   const inputRef = useRef(null);
